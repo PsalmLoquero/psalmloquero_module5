@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+div{
+    
+    
+
+}
+
+.navbar{
+border: 1px solid black;
+border-radius: 5px;
+background-color: beige;
+}
+#discord{
+background-color: blue;
+}
+#yt{
+    background-color: red;
+}
+#tiktok{
+    background-color: pink;
+}
+#fb{
+    background-color: lightblue;
+}
+#ig{
+    background-color: orange;
+}
+.links{
+    border: 1px solid black;
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: .7;
+    transition: 0.4s;
+}
+.links:hover{
+opacity: 1;
+transition: .4s;
+font-size: larger;
+}
+#linksgroup{
+    text-align: center;
+}
+.links a{
+    text-decoration: none;
+}
+
+.banner{
+    background-image: url(images/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 350px;
+    
+}
+.bannertext{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+.bannertext h2{
+    text-transform: uppercase;
+    color: brown;
+    font-size: 4em;
+}
+.bannertext h2 span{
+    color: chocolate;
+}
+.bannertext p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.banner a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background-color: brown;
+    margin-top: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 700;
+}
